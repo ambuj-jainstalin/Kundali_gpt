@@ -2,6 +2,7 @@ from datetime import datetime,timedelta
 import os
 import time
 import streamlit as st
+import dotenv
 from dotenv import load_dotenv
 from langchain.chains import ConversationChain
 from langchain.memory import ConversationBufferMemory
